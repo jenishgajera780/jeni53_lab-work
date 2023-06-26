@@ -29,7 +29,7 @@ print("you have sucessfully done internet recharge..")
 break;
 
 case 2:
-print("tou have sucessfully done top-up recharge..")
+print("you have sucessfully done top-up recharge..")
 break;
 case 3:
 print("you have sucessfully done special recharge..")
@@ -43,4 +43,36 @@ case 2:
 printf("internet recharge ke liye 1 dabaiye\n");
 printf("top-up recharge ke liye 2 dabaiye\n");
 printf("special recharge ke liye 3 dabaiye\n");
-scanf("%d");
+scanf("%d",hindi);
+
+switch(hindi){
+case 1:
+printf("apne safaltapurvak internet recharge kar liya hai")
+break;
+
+case 2:
+printf("apne safaltapurvak top-uo recharge kar liya hai")
+break;
+
+case 3:
+print("apne safaltapuravk special recharge kar liya hai")
+break;
+
+default:
+printf("no plan availabel");
+break;
+
+case 3:
+printf("internet recharge mate 1 dabavo\n");
+printf("top-up recharge mate 2 dabavo\n");
+print("special recharge mate 3 dabavo\n");
+scanf("%d",gujrati);
+
+switch(gujrati){
+case 1:
+printf("tame safaltapurvak internet recharge karyu che")
+break;
+
+case 2:
+printf("tame safaltapurvak top-up recharge karyu che")
+break;
