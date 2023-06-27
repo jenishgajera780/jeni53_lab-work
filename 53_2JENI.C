@@ -76,3 +76,11 @@ break;
 case 2:
 printf("tame safaltapurvak top-up recharge karyu che")
 break;
+
+case 3:
+printf("tame safaltapurvak special recharge karyu che")
+break;
+
+default:
+printf("no plan availabel");
+break;
